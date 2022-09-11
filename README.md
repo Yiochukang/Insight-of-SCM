@@ -34,4 +34,17 @@
 
 4. 过程控制与反馈
     1. 监测指标
-    2. Extra Resource Request
+        1. Inventory
+        1. Cost
+        3. Milestone
+        3. Delivery Time
+        4. Accuracy
+        5. Stability
+    2. 资源利用与回收
+        1. Cash flow: Payment terms
+        2. Time: EDI,Difference Delay
+        3. Room and Capacity: Share Logistic
+        4. Variation: Complementary Fluctuation
+    3. Extra Resource Request
+        1. Presentation + Negotiation
+    4. 项目修正与中止
