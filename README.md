@@ -3,7 +3,7 @@
     1. 系统搭建（system engineering)
         1. 接口
         2. Flow
-        3. Flow Disruption Risk
+        3. Flow Disruption Risk(safety inventory)
     2. 建模优化(object function)
         1. 降低运营成本
         2. 降低lead time
@@ -11,9 +11,9 @@
         4. 提升预测准确性
 
     3. 稳定性Robustness(constraints)
-        1. 提升应对波动的反应效率（Buffer）
-        2. Risk metigation (Plan B)
-        3. 针对未来变化的可扩展性
+        1. 吸收波动（Buffer）
+        2. Risk indetificaton & metigation (Plan B)
+        3. 针对未来变化的可扩展性、前瞻性
 
 2. 基础数据
     1. 时间类：Master Planning, Supplier Lead Time, Delivery Time
