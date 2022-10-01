@@ -77,8 +77,8 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 * Distribution Data - Inventory/Forecasting/Transportation
     1. Data:
-        * Demand
-        * Leadtime/Transit time
-        * Queueing
+        * Demand (normal distribution)
+        * Leadtime/Transit time (log-normal)
+        * Queueing (poisson distribution)
 
     
