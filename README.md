@@ -48,3 +48,28 @@
     3. Extra Resource Request
         1. Presentation + Negotiation
     4. 项目修正与中止
+
+
+
+# 新思路
+* Push/Pull System（Push/Pull boundary) - Inventory 
+    1. Principle:
+        * Maximize external variaty with minimize internal variety
+        * Keep in-process inventory as "Raw as Possible"
+    2. Benefit:
+        * Efficient mass customization(Postponement)
+        * Pooling of product - Aggregating demand
+
+* Segmentation - Inventory/Transportation/Forecasting
+    |Physical|Customer|Supplier|Functional/Innovative|Revenue|
+    |    :----:|    :----:|    :----:|:----:|:----:|
+    |Size|Seasonality|Reliability|Y/N|Cost/Profit|
+    1. Principle: Power Law
+    2. Application:
+        * Supply Chain Resource Allocation among differenct product category (functional vs innovative)
+        * Distribution Integration (customer)
+        * Sharing Logistic (customer)
+        * ABC Method (Revenue)
+        * Pooling of product(Customer)
+
+    
