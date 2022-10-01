@@ -50,6 +50,8 @@
     4. 项目修正与中止
 
 
+# 全局map
+https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 # 新思路
 * Push/Pull System（Push/Pull boundary) - Inventory 
@@ -71,5 +73,12 @@
         * Sharing Logistic (customer)
         * ABC Method (Revenue)
         * Pooling of product(Customer)
+
+
+* Distribution Data - Inventory/Forecasting/Transportation
+    1. Data:
+        * Demand
+        * Leadtime/Transit time
+        * Queueing
 
     
