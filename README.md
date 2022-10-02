@@ -81,4 +81,8 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         * Leadtime/Transit time (log-normal)
         * Queueing (poisson distribution)
 
+
+* Correlation analysis(regression)
+    1. find the factor affecting the depant variable
+
     
