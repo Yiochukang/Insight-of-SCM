@@ -53,8 +53,17 @@
 # 全局map
 https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
-# 新思路
-* Push/Pull System（Push/Pull boundary) - Inventory 
+# 全局关键
+1. Demand Uncertainty/Supply Fluctuation: Data & Distribution
+    1. Forecasting & Risk Metigation
+    2. Expected Result (Stocastic Optimization)
+    3. Tradeoff (Marginal Revenue/Sensitivity)
+2. Inventory Management/Queueing
+    1. Lead-time: Push/Pull, Segmentation
+
+
+# 子工程
+* Push/Pull System（Push/Pull boundary)
     1. Principle:
         * Maximize external variaty with minimize internal variety
         * Keep in-process inventory as "Raw as Possible"
@@ -75,7 +84,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         * Pooling of product(Customer)
 
 
-* Distribution Data - Inventory/Forecasting/Transportation
+* Data & Distribution 
     1. Data:
         * Demand (normal distribution)
         * Leadtime/Transit time (log-normal)
