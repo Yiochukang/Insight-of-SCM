@@ -53,13 +53,25 @@
 # 全局map
 https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
-# 全局关键
-1. Demand Uncertainty/Supply Fluctuation: Data & Distribution
+
+
+# 全局关键 Macro Supply vs Macro Demand
+0. Macro Demand with service level
+    1. Quantity
+    2. Lead-time/Waiting time (push/pull)
+    3. Error Pecentage
+    4. Customer tolerance (a kind of resource to be utilized) (marginal revenue)
+
+0. Macro Supply with inventory and risk
+    1. Inventory
+    2. Resource/Capacity (including resource belong to others)
+
+1. Demand Uncertainty/Supply Fluctuation deduced by Data & Distribution
     1. Forecasting & Risk Metigation
     2. Expected Result (Stocastic Optimization)
     3. Tradeoff (Marginal Revenue/Sensitivity)
-2. Inventory Management/Queueing
-    1. Lead-time: Push/Pull, Segmentation
+
+
 
 
 # 子工程
