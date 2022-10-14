@@ -82,6 +82,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     2. Benefit:
         * Efficient mass customization(Postponement)
         * Pooling of product - Aggregating demand
+        * Recent demand is more accuracy
 
 * Segmentation - Inventory/Transportation/Forecasting
     |Physical|Customer|Supplier|Functional/Innovative|Revenue|
