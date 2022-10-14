@@ -95,6 +95,10 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         * ABC Method (Revenue)
         * Pooling of product(Customer)
 
+* Aggregating
+    1. Time
+    2. Location
+    3. SKU
 
 * Data & Distribution 
     1. Data:
