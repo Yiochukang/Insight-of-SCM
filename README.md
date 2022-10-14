@@ -99,6 +99,9 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     1. Time
     2. Location
     3. SKU
+    4. Benefit:
+        1. Increase accuracy of forecasting
+        2. Reduce safety stock
 
 * Data & Distribution 
     1. Data:
