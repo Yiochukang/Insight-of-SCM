@@ -55,27 +55,28 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 
 
-# 全局关键 Macro Supply vs Macro Demand
-0. Macro Demand with service level
+# Topic and Measurement
+1. Generalized Demand
     1. Quantity
-    2. Lead-time/Waiting time (push/pull)
-    3. Error Pecentage
-    4. Customer tolerance (a kind of resource to be utilized) (marginal revenue)
+    2. Waiting time (push/pull,delay differciation)
+    3. Error Pecentage/Service level/Customer tolerance (a kind of resource to be utilized) (marginal revenue vs marginal cost)
+    
+2. Generalized Supply 
+    1. Safety Inventory/Buffer
+    2. Max Capacity/Limitation/Lead time
+    2. Plan B/Multi-Sourcing/Extra Resource(Resource belong to others)
 
-0. Macro Supply with inventory and risk
-    1. Inventory
-    2. Resource/Capacity (including resource belong to others)
-
-1. Demand Uncertainty/Supply Fluctuation deduced by Data & Distribution
+3. Demand Uncertainty/Supply Fluctuation/Data Distribution
     1. Forecasting & Risk Metigation
     2. Expected Result (Stocastic Optimization)
-    3. Tradeoff (Marginal Revenue/Sensitivity)
+    3. System Sensitivity/Robustness/Resilient/Adaptability
+    4. Process control/Adjustment
 
 
 
 
-# 子工程
-* Push/Pull System（Push/Pull boundary)
+# Method
+* Push-Pull Boundary（Delay Differentiation/Mass Customerization/Scale Effect)
     1. Principle:
         * Maximize external variaty with minimize internal variety
         * Keep in-process inventory as "Raw as Possible"
@@ -84,25 +85,27 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         * Pooling of product - Aggregating demand
         * Recent demand is more accuracy
 
-* Segmentation - Inventory/Transportation/Forecasting
+
+* Segmentation(Priority/Scale Effect)
     |Physical|Customer|Supplier|Functional/Innovative|Revenue|
     |    :----:|    :----:|    :----:|:----:|:----:|
     |Size|Seasonality|Reliability|Y/N|Cost/Profit|
     1. Principle: Power Law
     2. Application:
         * Supply Chain Resource Allocation among differenct product category (functional vs innovative)
-        * Distribution Integration (customer)
-        * Sharing Logistic (customer)
-        * ABC Method (Revenue)
+        * ABC Method (Revenue/Cost)
         * Pooling of product(Customer)
 
+
 * Aggregating
-    1. Time
-    2. Location
-    3. SKU
-    4. Benefit:
+    1. Criteria:SKU/Location/SKU
+    2. Benefit:
         1. Increase accuracy of forecasting
         2. Reduce safety stock
+    3. Application
+        1. Distribution Integration
+        2. Sharing Logistic(Pooling of product)
+
 
 * Data & Distribution 
     1. Data:
