@@ -66,11 +66,12 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     2. Max Capacity/Limitation/Lead time
     2. Plan B/Multi-Sourcing/Extra Resource(Resource belong to others)
 
-3. Demand Uncertainty/Supply Fluctuation/Data Distribution
+3. Tradeoff between Cost and Risk(Demand Uncertainty/Supply Disruption)
     1. Forecasting & Risk Metigation
     2. Expected Result (Stocastic Optimization)
     3. System Sensitivity/Robustness/Resilient/Adaptability
     4. Process control/Adjustment
+
 
 
 
