@@ -108,6 +108,8 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         2. Sharing Logistic(Pooling of product)
 
 
+* Scale Effect
+
 * Data & Distribution 
     1. Data:
         * Demand (normal distribution)
