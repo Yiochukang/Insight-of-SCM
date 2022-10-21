@@ -34,12 +34,12 @@
 
 4. 过程控制与反馈
     1. 监测指标
-        1. Inventory
-        1. Cost
-        3. Milestone
-        3. Delivery Time
-        4. Accuracy
-        5. Stability
+        ~~1. Inventory~~
+        ~~1. Cost~~
+        ~~3. Milestone~~
+        ~~3. Delivery Time~~
+        ~~4. Accuracy~~
+        ~~5. Stability~~
     2. 资源利用与回收
         1. Cash flow: Payment terms
         ~~2. Time: EDI,Difference Delay~~
@@ -116,7 +116,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 
 * Pruning and stop-loss
-    1. Principle: bottom line and priority list
+    1. Principle: bottom line/Capacity/priority list/Milestone
     2. Application:
         1. TAKT: decrease service level, free up resource for higher priority task
 
