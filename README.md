@@ -63,11 +63,12 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     
 2. Generalized Supply 
     1. Safety Inventory/Buffer
-    2. Max Capacity/Limitation/Lead time
+    2. Max Capacity/Limitation/Lead time/Bottleneck
     2. Plan B/Multi-Sourcing/Extra Resource(Resource belong to others)
 
-3. Tradeoff between Cost and Risk(Demand Uncertainty/Supply Disruption)
+3. Tradeoff between Cost,Effecience, and Risk(Demand Uncertainty/Supply Disruption)
     1. Forecasting & Risk Metigation
+    2. Bottleneck
     2. Expected Result (Stocastic Optimization)
     3. System Sensitivity/Robustness/Resilient/Adaptability
     4. Process control/Adjustment
@@ -95,20 +96,24 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     2. Application:
         * Supply Chain Resource Allocation among differenct product category (functional vs innovative)
         * ABC Method (Revenue/Cost)
-        * Pooling of product(Customer)
+
 
 
 * Aggregating
-    1. Criteria:SKU/Location/SKU
+    1. Criteria:SKU/Location/Function/Issue/Process
     2. Benefit:
         1. Increase accuracy of forecasting
         2. Reduce safety stock
+        3. Scale Effect
     3. Application
         1. Distribution Integration
         2. Sharing Logistic(Pooling of product)
 
 
-* Scale Effect
+    
+* Bottleneck
+
+
 
 * Data & Distribution 
     1. Data:
