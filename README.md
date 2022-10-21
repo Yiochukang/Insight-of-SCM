@@ -6,16 +6,16 @@
         3. Flow Disruption Risk(Estimation, Safety inventory, Plan B)
 
     2. 建模优化(object function aimed at most)
-        1. 降低cost
-        2. 降低lead time
+        ~~1. 降低cost~~
+        ~~2. 降低lead time~~
         3. 降低quene
-        4. 提升accuracy
+        ~~4. 提升accuracy~~
         5. 提升stability
 
     3. 稳定性 Resilience (constraints aimed at least)
         1. 吸收波动（Buffer）
-        2. Risk indetificaton & metigation (Plan B)
-        3. 针对未来变化的可扩展性、前瞻性adaptation
+        ~~2. Risk indetificaton & metigation (Plan B)~~
+        ~~3. 针对未来变化的可扩展性、前瞻性adaptation~~
 
 2. 基础数据
     0. Resource: Supplier, Capacity, Layout, Relationship with client and supplier
@@ -29,8 +29,8 @@
 3. 项目实施
     1. 项目优先级判断(byself/out-resourcing )
     2. 全局资源分配(1.effect+difficulty 2.Critical Path)
-    3. 建模
-    4. 数据埋点与收集处理
+    ~~3. 建模~~
+    ~~4. 数据埋点与收集处理~~
 
 4. 过程控制与反馈
     1. 监测指标
@@ -42,12 +42,12 @@
         5. Stability
     2. 资源利用与回收
         1. Cash flow: Payment terms
-        2. Time: EDI,Difference Delay
-        3. Room and Capacity: Share Logistic
-        4. Variation: Complementary Fluctuation
-    3. Extra Resource Request
-        1. Presentation + Negotiation
-    4. 项目修正与中止
+        ~~2. Time: EDI,Difference Delay~~
+        ~~3. Room and Capacity: Share Logistic~~
+        ~~4. Variation: Complementary Fluctuation~~
+    ~~3. Extra Resource Request~~
+        ~~1. Presentation + Negotiation~~
+    ~~4. 项目修正与中止~~
 
 
 # 全局map
@@ -55,7 +55,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 
 
-# Topic and Measurement
+# Core Topic and Measurement
 1. Generalized Demand
     1. Quantity
     2. Waiting time (push/pull,delay differciation)
@@ -66,13 +66,14 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     2. Max Capacity/Limitation/Lead time/Bottleneck
     2. Plan B/Multi-Sourcing/Extra Resource(Resource belong to others)
 
-3. Tradeoff between Cost,Effecience, and Risk(Demand Uncertainty/Supply Disruption)
-    1. Forecasting & Risk Metigation
-    2. Bottleneck
+3. Operation Cost
+    1. Raw material/Logistic/Warehousing/Labour/Machine
+    2. Policy and International Tax
+
+4. Risk/Additional resource/Stop-loss
     2. Expected Result (Stocastic Optimization)
     3. System Sensitivity/Robustness/Resilient/Adaptability
-    4. Process control/Adjustment
-
+    4. Bottleneck/Process control/Adjustment/Optimization
 
 
 
@@ -82,13 +83,12 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     1. Principle:
         * Maximize external variaty with minimize internal variety
         * Keep in-process inventory as "Raw as Possible"
-    2. Benefit:
-        * Efficient mass customization(Postponement)
-        * Pooling of product - Aggregating demand
-        * Recent demand is more accuracy
+    2. Application:
+        * Decrease complexity → Aggregating demand → Increase prediction accuracy：Efficient mass customization
+        * Reduce lead-time (WIP)
 
 
-* Segmentation(Priority/Scale Effect)
+* Segmentation(Priority/Power law)
     |Physical|Customer|Supplier|Functional/Innovative|Revenue|
     |    :----:|    :----:|    :----:|:----:|:----:|
     |Size|Seasonality|Reliability|Y/N|Cost/Profit|
@@ -99,19 +99,26 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 
 
-* Aggregating
+* Aggregating(Scale effect/Pooling of product)
     1. Criteria:SKU/Location/Function/Issue/Process
-    2. Benefit:
-        1. Increase accuracy of forecasting
-        2. Reduce safety stock
-        3. Scale Effect
     3. Application
-        1. Distribution Integration
-        2. Sharing Logistic(Pooling of product)
+        1. Increase prediction accuracy: Distribution Integration
+        2. Decrease cost: Sharing Logistic (Pooling of product)
+        3. Decrease safety stock
+        4. Decrease warm-up time
 
 
-    
-* Bottleneck
+* Additional Resource/Plan B
+    1. Principle: Tradeoff cost and risk
+    2. Application
+        1. Eliminate current bottleneck/increase revenue/decrease quene and leadtime
+        2. Risk mediation
+
+
+* Pruning and stop-loss
+    1. Principle: bottom line and priority list
+    2. Application:
+        1. TAKT: decrease service level, free up resource for higher priority task
 
 
 
@@ -120,9 +127,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         * Demand (normal distribution)
         * Leadtime/Transit time (log-normal)
         * Queueing (poisson distribution)
-
-
-* Correlation analysis(regression)
-    1. find the factor affecting the depant variable
+    2.  Correlation analysis(regression)
+        * find the factor affecting the depant variable
 
     
