@@ -83,7 +83,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         * Keep in-process inventory as "Raw as Possible"
     2. Application:
         * Decrease complexity → Aggregating demand → Increase prediction accuracy：Efficient mass customization
-        * Reduce lead-time (WIP)
+        * Reduce lead-time (WIP), then decrease intentory furthermore
 
 
 * Segmentation(Priority/Power law)
@@ -101,7 +101,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     3. Application
         1. Increase prediction accuracy: Distribution Integration
         2. Decrease cost: Sharing Logistic (Pooling of product)
-        3. Decrease safety stock
+        3. Decrease safety stock (by decreasing std)
         4. Decrease warm-up time
 
 
@@ -116,6 +116,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     1. Principle: bottom line/Capacity/priority list/Milestone
     2. Application:
         1. TAKT: decrease service level, free up resource for higher priority task
+        2. Marginal profit derived from margin increase in service leverl
 
 
 * Reserved Resource for future development
