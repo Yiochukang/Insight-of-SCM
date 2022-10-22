@@ -70,10 +70,8 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     1. Raw material/Logistic/Warehousing/Labour/Machine
     2. Policy and International Tax
 
-4. Risk/Additional resource/Stop-loss
-    2. Expected Result (Stocastic Optimization)
-    3. System Sensitivity/Robustness/Resilient/Adaptability
-    4. Bottleneck/Process control/Adjustment/Optimization
+4. Risk/Process Control(Pruning vs Additional Resource Adjustment)
+
 
 
 
@@ -98,7 +96,6 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         * ABC Method (Revenue/Cost)
 
 
-
 * Aggregating(Scale effect/Pooling of product)
     1. Criteria:SKU/Location/Function/Issue/Process
     3. Application
@@ -121,6 +118,19 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         1. TAKT: decrease service level, free up resource for higher priority task
 
 
+* Reserved Resource for future development
+    1. System Sensitivity/Robustness/Resilient/Adaptability
+
+
+* Optimization
+    1. Local optimization
+    2. Expected value and stocastic optimization    
+    2. Operation management
+        1. Pre-requsite
+        2. Bottleneck and Critical Chain
+        3. Take advantage of lead-time
+    3. Scale of economy
+   
 
 * Data & Distribution 
     1. Data:
@@ -128,6 +138,4 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         * Leadtime/Transit time (log-normal)
         * Queueing (poisson distribution)
     2.  Correlation analysis(regression)
-        * find the factor affecting the depant variable
-
-    
+        * find the factor affecting the depant variable   
