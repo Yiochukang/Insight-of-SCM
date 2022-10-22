@@ -110,6 +110,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     2. Application
         1. Eliminate current bottleneck/increase revenue/decrease quene and leadtime
         2. Risk mediation
+        3. Decrease leadtime (on shore supplier), furthermore decrease safety stock
 
 
 * Pruning and stop-loss
