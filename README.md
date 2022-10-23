@@ -56,21 +56,20 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 
 # Core Topic and Measurement
-1. Generalized Demand
-    1. Quantity
-    2. Waiting time (push/pull,delay differciation)
-    3. Error Pecentage/Service level/Customer tolerance (a kind of resource to be utilized) (marginal revenue vs marginal cost)
+1. Demand
+    1. Hardline: Quantity/Quality Control
+    2. Service Level: Waiting time/Wastage/Fulfillment Percentage(marginal revenue vs marginal cost)
     
-2. Generalized Supply 
-    1. Safety Inventory/Buffer
-    2. Max Capacity/Limitation/Lead time/Bottleneck
-    2. Plan B/Multi-Sourcing/Extra Resource(Resource belong to others)
 
-3. Operation Cost
-    1. Raw material/Logistic/Warehousing/Labour/Machine
-    2. Policy and International Tax
+2. Supply 
+    1. Priority/Resource Allocation(Capacity, Cash, Storage, Leadtime)
+    2. Safety Stock/Additional Resource(Bottleneck)/Plan B: Risk and fulctuation
+    3. Heijunka & TAKT: Buffer/Multi-Sourcing
 
-4. Risk/Process Control(Pruning vs Additional Resource Adjustment)
+
+3. Process Control(Plus vs Pruning)
+    1. Priority Review
+    2. Tradeoff: Increase resource or sacrifice service level(Marginal and Redline)
 
 
 
@@ -135,9 +134,12 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
    
 
 * Data & Distribution 
-    1. Data:
+    1. Distribution:
         * Demand (normal distribution)
         * Leadtime/Transit time (log-normal)
         * Queueing (poisson distribution)
-    2.  Correlation analysis(regression)
+    2. Operation Cost
+        1. Raw material/Logistic/Warehousing/Labour/Machine
+        2. Policy and International Tax    
+    3.  Correlation analysis(regression)
         * find the factor affecting the depant variable   
