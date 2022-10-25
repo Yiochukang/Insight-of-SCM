@@ -96,12 +96,12 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 
 * Aggregating(Scale effect/Pooling of product)
-    1. Criteria:SKU/Location/Function/Issue/Process
+    1. Criteria:SKU/Location/Function/Issue/Process/Manufacuture process/Labour required
     3. Application
         1. Increase prediction accuracy: Distribution Integration
         2. Decrease cost: Sharing Logistic (Pooling of product)
         3. Decrease safety stock (by decreasing std)
-        4. Decrease warm-up time
+        4. Decrease warm-up time: Batch size/Minimun Order size
 
 
 * Additional Resource/Plan B
@@ -115,7 +115,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 * Pruning and stop-loss
     1. Principle: bottom line/Capacity/priority list/Milestone
     2. Application:
-        1. TAKT: decrease service level, free up resource for higher priority task
+        1. TAKT: Batch size/decrease service level to free up resource for higher priority task
         2. Marginal profit derived from margin increase in service leverl
 
 
