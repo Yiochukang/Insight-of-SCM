@@ -176,4 +176,6 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 2. aggregation（客户/supplier集群，distribution integration）缩短leadtime,进一步减少safety stock与forecast误差
 
+3. 生产平整 vs 中台信息实时调整
+
 3. adaptability
