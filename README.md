@@ -143,3 +143,37 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         2. Policy and International Tax    
     3.  Correlation analysis(regression)
         * find the factor affecting the depant variable   
+
+
+# 战略
+1. 产品目标/定位（迎合群体）：
+    1. revenue(提升service level)
+        1. 时代特征（经济泡沫/石油危机/政治经济）：UNIQLO/Toyota/Tesla
+        2. 科技技术：Apple，AMSL，Pfizer
+        3. 快速反应：ZARA、Dell
+        4. 多样化：GM，Nike，GAP
+        5. 服务：Costco（售后），3PL/京东（及时率），美团/walmart（覆盖率）
+    2. 降低cost
+        1. 通过规模效应(通用件、mass customermization)实现精益管理（no inventory)
+        2. 运筹优化/机器学习：（集群分类aggregation，实现路径优化，distribution integration）
+        3. 生产平整化
+2. 资源限制：产品生命周期，资金
+
+
+# supplier接入标准/架构
+1. 是否有助于revenue增值（子功能与系统总功能 方向一致）
+2. Selection criteria（同鲫比较/局部最优）
+    1. 时间
+    2. 成本
+    3. 系统性风险（uncertainty)
+        1. sole supplier（material,capacity,quality)
+        2. 核心技术
+
+# revenue与cost矛盾调和（系统调整/整体最优）
+1. SKU数量(确定通用件（规模效应成本降低）、pull-push point(lead time降低))
+    1. 预测准确度、安全库存、supplier管理难度
+    2. revenue：多样化
+
+2. aggregation（客户/supplier集群，distribution integration）缩短leadtime,进一步减少safety stock与forecast误差
+
+3. adaptability
