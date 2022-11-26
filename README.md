@@ -168,6 +168,8 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 2. 风险管理
     1. holding cost vs disruption
     2. obermeyer case：准确度高的优先
+    3. 系统性风险
+        1. single soucing(规模效应，供应商关系与协调研发 vs 系统性风险) vs multi-sourcing（成本、管理难度）
 
 3. 供应商管理
     1. 是否符合产品定位，有助于revenue增值（子功能与系统总功能 方向一致）
@@ -177,7 +179,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
         3. 系统性风险（uncertainty)
             1. sole supplier（material,capacity,quality)
             2. 核心技术
-    3. single soucing(规模效应，供应商关系与协调研发 vs 系统性风险) vs multi-sourcing（成本、管理难度）
+    3. 牛鞭效应/信息透明与leadtime/博弈
 
 4. 系统稳定性，生产平整化
 5. 预留长期接口 optimization vs adaptability
