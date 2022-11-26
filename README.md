@@ -146,9 +146,11 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 
 # 供应链模式要匹配产品战略，确定各项指标
-产品目标/定位（迎合群体）：
-指标：成本、时效（leadtime、覆盖率)、定制多样化（SKU）、特定技术与质量（integrated supplier)、地缘优势（需求供给地理距离，地缘优惠政策）
+指标：
+1. 供给顺畅、特定技术与质量（integrated supplier)
+2. 成本、时效（leadtime、覆盖率)、定制多样化（SKU）、地缘优势（需求供给地理距离，地缘优惠政策）
 
+产品目标/定位（迎合群体）：
 1. 时代特征（经济泡沫/石油危机/政治经济）：UNIQLO/Toyota/Tesla
 2. 科技技术：Apple，AMSL，Pfizer
 3. 快速反应：ZARA、Dell、HP
@@ -157,23 +159,33 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 
 # 信息中台监测，及时调整（ABS）
-1. 通过规模效应(通用件、mass customermization)实现精益管理（no inventory)
-2. 运筹优化/机器学习：
-    1. 集群分类aggregation，实现路径优化，distribution integration，缩短leadtime,进一步减少safety stock与forecast误差
-    2. SKU数量(确定通用件（规模效应成本降低）、pull-push point(lead time降低))
-3. 生产平整化
-4. optimization vs adaptability
+1. 库存管理
+    1. 通用件 + push/pull point
+    2. 预测端：aggregation，降低std
+    3. 供给端：distribution integration + risk pooling + sharing logistic + 路径优化
+    4. segmantation: critical component vs screw
+
+2. 风险管理
+    1. holding cost vs disruption
+    2. obermeyer case：准确度高的优先
+
+3. 供应商管理
+    1. 是否符合产品定位，有助于revenue增值（子功能与系统总功能 方向一致）
+    2. Selection criteria（同鲫比较/局部最优）
+        1. 时间
+        2. 成本
+        3. 系统性风险（uncertainty)
+            1. sole supplier（material,capacity,quality)
+            2. 核心技术
+    3. single soucing(规模效应，供应商关系与协调研发 vs 系统性风险) vs multi-sourcing（成本、管理难度）
+
+4. 系统稳定性，生产平整化
+5. 预留长期接口 optimization vs adaptability
 
 
-# supplier接入标准/架构
-1. 是否符合产品定位，有助于revenue增值（子功能与系统总功能 方向一致）
-2. Selection criteria（同鲫比较/局部最优）
-    1. 时间
-    2. 成本
-    3. 系统性风险（uncertainty)
-        1. sole supplier（material,capacity,quality)
-        2. 核心技术
-3. single soucing(规模效应，供应商关系与协调研发 vs 系统性风险) vs multi-sourcing（成本、管理难度）
+
+
+
 
 
 
