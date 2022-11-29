@@ -160,6 +160,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 # 信息中台监测，及时调整（ABS）
 1. 库存管理
+    0. EOQ
     1. 通用件 + push/pull point
     2. 预测端：aggregation，降低std
     3. 供给端：distribution integration + risk pooling + sharing logistic + 路径优化
