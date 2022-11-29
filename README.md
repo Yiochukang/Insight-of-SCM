@@ -148,7 +148,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 # 供应链模式要匹配产品战略，确定各项指标
 指标：
 1. 供给顺畅、特定技术与质量（integrated supplier)
-2. 成本、时效（leadtime、覆盖率)、定制多样化（SKU）、地缘优势（需求供给地理距离，地缘优惠政策）
+2. 成本(holding/purchase)、时效（leadtime、覆盖率)、定制多样化（SKU）、地缘优势（需求供给地理距离，地缘优惠政策）
 
 产品目标/定位（迎合群体）：
 1. 时代特征（经济泡沫/石油危机/政治经济）：UNIQLO/Toyota/Tesla
