@@ -159,7 +159,8 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     4. lean opeartion for supplier（sharing logistics）
 
 
-
+6. pitfall, learning, warning
+    1. any lesson from previous observation or history record
 
 
 
