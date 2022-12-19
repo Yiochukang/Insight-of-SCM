@@ -1,54 +1,3 @@
-# 供应链项目管理（微观）
-1. 项目目标
-    1. NPI系统搭建（system engineering)
-        1. 子项目接口
-        2. Flow (Provide, transfer), Stable(Maintain)
-        3. Flow Disruption Risk(Estimation, Safety inventory, Plan B)
-
-    2. 建模优化(object function aimed at most)
-        ~~1. 降低cost~~
-        ~~2. 降低lead time~~
-        3. 降低quene
-        ~~4. 提升accuracy~~
-        5. 提升stability
-
-    3. 稳定性 Resilience (constraints aimed at least)
-        1. 吸收波动（Buffer）
-        ~~2. Risk indetificaton & metigation (Plan B)~~
-        ~~3. 针对未来变化的可扩展性、前瞻性adaptation~~
-
-2. 基础数据
-    0. Resource: Supplier, Capacity, Layout, Relationship with client and supplier
-    1. Time：Master Planning, Supplier Lead Time, Quene/Delivery Time(Capacity+Layout)
-    2. Cost：Purchase Cost, Holding Cost, Transport Cost
-    3. Quantity：BOM
-    4. Flow-related: Capacity(Production, Batch-Size, Transpotation), Buffer
-    5. Stability: Fluctuation+Accuracy, Variation+Statistical caliber, Risk Level Estimation+Consequence(Delay,Shortage,Quality),
-    Extra Resource+Plan B
-
-3. 项目实施
-    1. 项目优先级判断(byself/out-resourcing )
-    2. 全局资源分配(1.effect+difficulty 2.Critical Path)
-    ~~3. 建模~~
-    ~~4. 数据埋点与收集处理~~
-
-4. 过程控制与反馈
-    1. 监测指标
-        ~~1. Inventory~~
-        ~~1. Cost~~
-        ~~3. Milestone~~
-        ~~3. Delivery Time~~
-        ~~4. Accuracy~~
-        ~~5. Stability~~
-    2. 资源利用与回收
-        1. Cash flow: Payment terms
-        ~~2. Time: EDI,Difference Delay~~
-        ~~3. Room and Capacity: Share Logistic~~
-        ~~4. Variation: Complementary Fluctuation~~
-    ~~3. Extra Resource Request~~
-        ~~1. Presentation + Negotiation~~
-    ~~4. 项目修正与中止~~
-
 
 # 全局map
 https://whimsical.com/VuycUqwRmkk7thnkaKce48
@@ -158,38 +107,53 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 5. 服务：Costco（售后），3PL/京东（及时率），美团/walmart（覆盖率）
 
 
-# 信息中台监测，及时调整（ABS）
-1. 库存管理
-    0. EOQ
-    1. 通用件 + push/pull point
-    2. 预测端：aggregation，降低std
-    3. 供给端：distribution integration + risk pooling + sharing logistic + 路径优化
-    4. segmantation: critical component vs screw
-
-2. 风险管理
-    1. holding cost vs disruption
-    2. obermeyer case：准确度高的优先
-    3. 系统性风险
-        1. single soucing(规模效应，供应商关系与协调研发 vs 系统性风险) vs multi-sourcing（成本、管理难度）
-
-3. 供应商管理
-    1. 是否符合产品定位，有助于revenue增值（子功能与系统总功能 方向一致）
-    2. Selection criteria（同鲫比较/局部最优）
-        1. 时间
-        2. 成本
-        3. 系统性风险（uncertainty)
-            1. sole supplier（material,capacity,quality)
-            2. 核心技术
-    3. 牛鞭效应/信息透明与leadtime/博弈
-
-4. 系统稳定性，生产平整化
-5. 预留长期接口 optimization vs adaptability
 
 
 
 
+#############################################################################################################
+1. 职业总体发展方向：（可跨行业迁移技能）
+    1. 数据库搭建+后期优化
+    2. 沟通的有效性与规范性（责任划分/regulation）
+
+2. initial purchase
+    1. quantity
+        1. BOM(function/feature)
+            1. component
+            2. service
+        2. process wastage
+    2. quality
+        1. technology specification
+        2. defect percentage
+    3. supplier
+        1. ability/risk level
+            1. capacity/lean opeartion
+            2. leadtime
+        2. willingness to cooperation
+            1. priority
+            2. communication/responsive time/service level
+
+3. contract
+    1. breach of contract
+        1. cancelation of order
+        2. material price fluctuation
 
 
+4. global resource monitoring and response
+    1. internal index: 
+        1. WIP/FC inventory:forecast,manufacture
+        2. capacity utilization:manuafacutre
+        3. current cost/revenue:finance,acct
+        4. queuing/holding time: order fulfill
+    2. external: delivery timely,defect percentage
+
+
+
+5. 价值工程/工艺改进
+    1. 价值工程，supplier early involevement
+    2. sku管理/通用件/delay difference/push-pull
+    3. 预测平整化（时间，地理空间aggregation,risk pooling），降低牛鞭效应，takka,buffer冗余
+    4. lean opeartion for supplier
 
 
 
