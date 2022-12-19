@@ -113,7 +113,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
 
 #############################################################################################################
 1. 职业总体发展方向：（可跨行业迁移技能）
-    1. 数据库搭建+后期优化
+    1. 数据库搭建+控制反馈+后期优化
     2. 沟通的有效性与规范性（责任划分/regulation）
 
 2. initial purchase
@@ -137,15 +137,18 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     1. breach of contract
         1. cancelation of order
         2. material price fluctuation
+        3. quality,leadtime,termination
 
 
-4. global resource monitoring and response
+4. global resource monitoring and response, detailed to specific batch, root cause analysis
     1. internal index: 
-        1. WIP/FC inventory:forecast,manufacture
+        1. WIP/FC inventory, queueing time:forecast,manufacture
         2. capacity utilization:manuafacutre
         3. current cost/revenue:finance,acct
-        4. queuing/holding time: order fulfill
-    2. external: delivery timely,defect percentage
+        4. defect issue
+    2. external: 
+        1. delivery timely,defect percentage
+
 
 
 
@@ -153,7 +156,7 @@ https://whimsical.com/VuycUqwRmkk7thnkaKce48
     1. 价值工程，supplier early involevement
     2. sku管理/通用件/delay difference/push-pull
     3. 预测平整化（时间，地理空间aggregation,risk pooling），降低牛鞭效应，takka,buffer冗余
-    4. lean opeartion for supplier
+    4. lean opeartion for supplier（sharing logistics）
 
 
 
